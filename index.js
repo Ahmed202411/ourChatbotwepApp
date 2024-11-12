@@ -15,7 +15,7 @@ app.use(bodyParser.json()); // تحليل محتوى البيانات بصيغة
 
 // إنشاء مسار GET عند الوصول إلى "/" وإرسال رسالة بسيطة
 app.get("/", function(req, res){
-    res.send("Hey!! , I'm just a chatbot web index."); // إرسال رسالة نصية بسيطة كاستجابة للطلب
+    res.send("Hey!! , I'm just a chatbot web App."); // إرسال رسالة نصية بسيطة كاستجابة للطلب
 });
 
 // بدء تشغيل الخادم والاستماع على المنفذ المحدد
