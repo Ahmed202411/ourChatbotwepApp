@@ -4,10 +4,7 @@
     { "src": "index.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/privacy", "dest": "privacy.html" },
+    { "src": "/privacy", "dest": "Privacy.html" },
     { "src": "/terms", "dest": "Terms.html" },
     { "src": "/(.*)", "dest": "index.js" }
-  ]
-}
-
-  
+  ]}
