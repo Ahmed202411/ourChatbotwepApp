@@ -36,11 +36,11 @@ app.get("/webhook", (req, res) => {
 });
 
 app.get('/terms', (req, res) => {
-  res.sendFile(path.join(__dirname, 'Terms.html'));  // يجب أن يكون اسم الملف كما هو في النظام
+  res.sendFile(path.join(__dirname, 'terms.html'));  // يجب أن يكون اسم الملف كما هو في النظام
 });
 
 app.get('/privacy', (req, res) => {
-  res.sendFile(path.join(__dirname, 'Privacy.html'));  // يجب أن يكون اسم الملف كما هو في النظام
+  res.sendFile(path.join(__dirname, 'privacy.html'));  // يجب أن يكون اسم الملف كما هو في النظام
 });
 
 // بدء تشغيل الخادم والاستماع على المنفذ المحدد
